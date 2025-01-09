@@ -3,27 +3,27 @@ const productGrid = document.querySelector('.products-grid');
 const productStorage = [
     {
         name: 'wheels',
-        imgSrc: '/assets/images/wheels.png'
+        imgSrc: 'assets/images/wheels.png'
     },
     {
         name: 'Brake Disc',
-        imgSrc: '/assets/images/brake pad.png'
+        imgSrc: 'assets/images/brake pad.png'
     },
     {
         name: 'Shock Absorber',
-        imgSrc: '/assets/images/dumper.png'
+        imgSrc: 'assets/images/dumper.png'
     },
     {
         name: 'Oil Filter',
-        imgSrc: '/assets/images/cleaner yellow.png'
+        imgSrc: 'assets/images/cleaner yellow.png'
     },
     {
         name: 'Grille',
-        imgSrc: '/assets/images/bumper mecedes.png'
+        imgSrc: 'assets/images/bumper mecedes.png'
     },
     {
         name: 'Headlight',
-        imgSrc: '/assets/images/car light.png'
+        imgSrc: 'assets/images/car light.png'
     }
 ]
 const prodFragment = document.createDocumentFragment();
